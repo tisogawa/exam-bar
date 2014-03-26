@@ -1,7 +1,8 @@
 {
-    "autoload": {
-        "psr-4": {
-            "Foo\\": "lib"
-        }
+  "name": "cermari/test-bar",
+  "autoload": {
+    "psr-4": {
+      "Foo\\": "lib"
     }
+  }
 }
