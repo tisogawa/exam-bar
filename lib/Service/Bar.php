@@ -1,11 +1,11 @@
 <?php
 
-namespace Foo\Service;
+namespace Exam\Service;
 
 class Bar
 {
-    public static function main(array $args = array())
+    public function doSomething()
     {
-        var_dump(__METHOD__);
+        return __METHOD__;
     }
 }
